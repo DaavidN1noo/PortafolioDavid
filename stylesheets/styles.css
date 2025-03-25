@@ -11,7 +11,8 @@ a
 
 ul
 {
-  margin: 20% 0 0% 0%;
+
+  margin: 10% 0 0% 0%;
 }
 
 ul li
@@ -26,17 +27,25 @@ ul li a
 
 ul li a p
 {
-  width: 75%;
+  width: 180px;
+  height: 30px;
   list-style-type: none;
-  background: #f2e8e1;
-  border-bottom: solid thin white;
+  background: #034a8c;
+  border: solid 1px #f2e8e1;
   padding: .3em 1em .3em;
   text-decoration: none;
-  color: #034a8c; 
-  font-size: 13px;
+  font-size: 15px;
   border-radius: 10px;
+  color: #f2e8e1;
 }
 
+.icons {
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  margin-right: 10px; /* Agrega espacio entre el icono y el texto */
+  vertical-align: middle; /* Asegura que el icono esté alineado con el texto */
+}
 
 h1
 {
@@ -47,7 +56,7 @@ h1
   padding: 5px 0 .3em;
   line-height: 32px;
   text-align: center;
-  color: #f2e8e1;
+  color: rgb(255, 255, 255);
 }
 
 h3
@@ -64,7 +73,7 @@ h3
 header.sidebar
 {
   background-color: #034a8c;
-  width: 20%;
+  width: 15%;
   background-size: cover;
   display: inline-block;
   vertical-align: top;
@@ -78,34 +87,39 @@ section.sidebar_information
   color: white;
 }
 
+.sidebar_userimage {
+  display: flex;         /* Alinea en fila */
+  align-items: center; 
+  gap: 10px;
+}
+
+
 div.sidebar_userimage
 {
   cursor: pointer;
   border-radius: 80px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0% 35% 0;
-  padding: 8% 0 0;
-  text-align: center;
+  margin: 0% 10% 0%;
+  padding: 8% 0% 0;
+  text-align: left;
 
 }
+
 
 div.sidebar_userimage img
 {
 
-  border-radius: 26px;
+  border-radius: 10px;
   width: 75px;
-  padding: 7px;
-  border: 1px solid #ccc; 
 }
 
 div.comunidad-autoria
 {
-  border-bottom: solid 1px white;
   background: #034a8c;
-  border-top: solid 1px white;
+  border: solid 1px white;
   padding: 4px;
-  margin: 12px;
+  margin: 40px;
   border-radius: 10px;
 }
 
@@ -128,16 +142,19 @@ div.logo img
 div.nombre
 {
 display: inline-block;
-vertical-align: top;
+vertical-align: middle;
 padding: 0;
+margin: 0 0 0 10px; /* Margen izquierdo para separar del logo */
 margin: 0% 33%;
+
 font-size: 15px;
-text-align: center;
+text-align: left;
 }
 
 div.nombre p
 {
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  text-align: left;
 }
 
 div.layout-principal
@@ -145,15 +162,18 @@ div.layout-principal
   position: absolute; 
   top: 0; 
   right: 0; 
+  left: 15%; /* Ajusta al ancho de la sidebar */
   bottom: 0;  
   overflow-x: auto;
   width: 55%;
-  padding: 0% 6.5%;
+  padding: 0% 3%;
 }
+
+
 
 div.bloque
 {
-  margin: 5% 0 0;
+  margin: 8% 0 0;
 }
 
 div.bloque p
