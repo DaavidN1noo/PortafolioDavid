@@ -28,7 +28,7 @@ ul li a
 ul li a p
 {
   width: 180px;
-  height: 30px;
+  height: 40px;
   list-style-type: none;
   background: #034a8c;
   border: solid 1px #f2e8e1;
@@ -61,13 +61,13 @@ h1
 
 h3
 {
+  color: #034a8c;
   text-transform: uppercase;
-  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
   line-height: 32px;
-  border-bottom: 1px #eeeeee solid;
-  color: #2e2e2e;
-  margin-bottom: 2.5em;
-  padding-bottom: .5em;
+  margin-bottom: 1px;
+  padding-bottom: 5px;
 }
 
 header.sidebar
@@ -144,7 +144,7 @@ div.nombre
 display: inline-block;
 vertical-align: middle;
 padding: 0;
-margin: 0 0 0 10px; /* Margen izquierdo para separar del logo */
+margin: 0; /* Margen izquierdo para separar del logo */
 margin: 0% 33%;
 
 font-size: 15px;
@@ -179,5 +179,10 @@ div.bloque
 div.bloque p
 {
   color: rgb(14, 14, 14);
+  line-height: 1.9em;
+}
+
+div.bloque h3
+{
   line-height: 1.9em;
 }
